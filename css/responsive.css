@@ -58,4 +58,14 @@
   /*when the device gets smaller, we move to a single column structure. THis
   destroys previous structure by setting width to 100, removing margin and float.
   */
+
+  .border-right{
+    border: 0;
+  }
+
+  #details div{
+    height: auto;
+    padding-bottom;
+  }
 }
+
