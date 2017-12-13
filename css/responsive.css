@@ -88,6 +88,14 @@
       padding: 10px 20px;
       width: auto;
     }
+
+    #logo {
+      padding:60px 0 0;
+    }
+
+    #social {
+      top: 60px;
+    }
 }
 /*  common strategy for nav bars on small devices; collapse nav bar into a
   'hanburger' menu icon (three lines). We do this by setting the hamburger
