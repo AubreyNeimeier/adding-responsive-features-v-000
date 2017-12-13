@@ -75,9 +75,23 @@
   }
 }
 
-@media only screen and (max-width:700px)
+@media only screen and (max-width:700px){
+
+    #navbar nav a{
+      display:none;
+    }
+
+    #navbar nav a.menu-icon{
+      display: block;
+      float: right;
+      font-size: 1.5em;
+      padding: 10px 20px;
+      width: auto;
+    }
+}
 /*  common strategy for nav bars on small devices; collapse nav bar into a
   'hanburger' menu icon (three lines). We do this by setting the hamburger
   icon to display:none as default. Then in media query we instruct to
   display hamburger icon and hide all other links (nav bar buttons).
   code in html for hamburger icon (<a class="menu-icon">&#9776;</a>) */
+
