@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1108px) {
+  .wrapper{
+    width: 90%;
+  }
+  /*telling our wrapper to be 90% of the devices screen when under 1108 px wide.*/
+
+  #social{
+    position:absolute;
+    top: 82px;
+    right: 4%;
+    width: auto;
+}
+    /* pushing down on top of social media icons, and pushing on the right.
+    changing from fixed position to absolute.*/
+    #social a {
+      display: inline-block;
+      /*this allows them to appear side-by-side*/
+    }
+}
+
+@media only screen and (max-width: 900px){
+    body{
+      font-size:85%
+    }
+
+    #logo h1{
+      width: 35px;
+      height: 35px;
+    }
+
+    #logo h2{
+      font-size: 2.2em;
+    }
+
+    #social{
+      top:72px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+  #navbar nav a{
+    
+  }
+}
