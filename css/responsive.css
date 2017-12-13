@@ -93,5 +93,5 @@
   'hanburger' menu icon (three lines). We do this by setting the hamburger
   icon to display:none as default. Then in media query we instruct to
   display hamburger icon and hide all other links (nav bar buttons).
-  code in html for hamburger icon (<a class="menu-icon">&#9776;</a>) */
-
+  code in html for hamburger icon (<a class="menu-icon">&#9776;</a>)
+  we need javascript to make the menu drop down*/
